@@ -6,9 +6,9 @@ Reading Log Proofs is a blockchain-based educational platform built on Aptos tha
 
 The platform features a modern dark-mode web interface with simulated wallet integration, making blockchain technology accessible to educational institutions. Teachers can verify student entries, administrators can manage teacher registrations, and students can track their progress through an intuitive dashboard.
 
-<img width="1291" height="527" alt="Screenshot 2025-08-16 151357" src="https://github.com/user-attachments/assets/4a3b998e-1908-4dff-aeee-602bf03b2b51" />
-<img width="1032" height="614" alt="Screenshot 2025-08-16 151432" src="https://github.com/user-attachments/assets/64def8f5-f72b-43fa-a776-dc8790390b0b" />
-<img width="1337" height="860" alt="Screenshot 2025-08-16 151340" src="https://github.com/user-attachments/assets/0d97e038-6270-4575-b13d-ef1777ef0063" />
+<img width="1032" height="614" alt="Screenshot 2025-08-16 151432" src="https://github.com/user-attachments/assets/f3cd8029-5886-44a3-99b3-0a32df8978c4" />
+<img width="1337" height="860" alt="Screenshot 2025-08-16 151340" src="https://github.com/user-attachments/assets/f1ffb85b-5047-4671-acaf-25a6049e2d1f" />
+<img width="1291" height="527" alt="Screenshot 2025-08-16 151357" src="https://github.com/user-attachments/assets/b89c24e6-6f68-4161-bb39-0169b39f9981" />
 
 ## Vision
 
