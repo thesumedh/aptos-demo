@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Log Proofs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Reading Log Proofs</h1>
+        <p>Blockchain-powered K-12 reading tracker with teacher attestations & APT rewards</p>
+
+        <div class="wallet-section">
+            <button id="connectWallet">🔗 Connect Wallet</button>
+            <div id="walletInfo" class="hidden">
+                <p>✅ Connected: <span id="walletAddress"></span></p>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('student')">👨‍🎓 Student</button>
+            <button class="tab" onclick="showTab('teacher')">👩‍🏫 Teacher</button>
+            <button class="tab" onclick="showTab('admin')">⚙️ Admin</button>
+        </div>
+
+        <!-- Student Tab -->
+        <div id="student" class="tab-content">
+            <h2>Student Dashboard</h2>
+            
+            <div class="stats" id="studentStats">
+                <div class="stat">
+                    <h3>0</h3>
+                    <p>Books Logged</p>
+                </div>
+                <div class="stat">
+                    <h3>0</h3>
+                    <p>Pages Verified</p>
+                </div>
+                <div class="stat">
+                    <h3>0</h3>
+                    <p>Badges Earned</p>
+                </div>
+                <div class="stat">
+                    <h3>0 APT</h3>
+                    <p>Rewards</p>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>📖 Log New Reading</h3>
+                <input type="text" id="bookTitle" placeholder="📚 Book Title (e.g., Harry Potter)">
+                <input type="number" id="pagesRead" placeholder="📄 Pages Read (e.g., 150)">
+                <div class="form-actions">
+                    <button onclick="logReading()">📝 Log Reading</button>
+                    <button onclick="claimRewards()" class="btn-secondary">💰 Claim Rewards</button>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>📊 Recent Activity</h3>
+                <div id="recentActivity">
+                    <p style="color: var(--text-secondary);">Connect wallet to view your reading history...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Teacher Tab -->
+        <div id="teacher" class="tab-content hidden">
+            <h2>Teacher Dashboard</h2>
+            
+            <div class="form-section">
+                <h3>✅ Verify Student Reading</h3>
+                <input type="text" id="studentAddress" placeholder="Student Wallet Address">
+                <input type="number" id="entryIndex" placeholder="Entry Index (0 for first entry, 1 for second...)">
+                <button onclick="verifyReading()">✅ Verify & Award Badges</button>
+            </div>
+
+            <div class="form-section">
+                <h3>🔍 Check Student Progress</h3>
+                <input type="text" id="checkStudentAddress" placeholder="Student Wallet Address">
+                <button onclick="checkStudentStats()">📊 View Stats</button>
+                <div id="checkResults"></div>
+            </div>
+
+            <div class="form-section">
+                <h3>📈 Class Overview</h3>
+                <button onclick="showClassStats()">📋 View All Students</button>
+                <div id="classResults"></div>
+            </div>
+        </div>
+
+        <!-- Admin Tab -->
+        <div id="admin" class="tab-content hidden">
+            <h2>Admin Dashboard</h2>
+            
+            <div class="form-section">
+                <h3>👩‍🏫 Register New Teacher</h3>
+                <input type="text" id="teacherAddress" placeholder="Teacher Wallet Address">
+                <button onclick="registerTeacher()">✅ Register Teacher</button>
+            </div>
+
+            <div class="form-section">
+                <h3>🔍 Teacher Management</h3>
+                <input type="text" id="checkTeacherAddress" placeholder="Teacher Wallet Address">
+                <button onclick="checkTeacher()">🔍 Check Status</button>
+                <div id="teacherResults"></div>
+            </div>
+
+            <div class="form-section">
+                <h3>💰 Reward Pool Management</h3>
+                <input type="number" id="fundAmount" placeholder="Amount to fund (APT)">
+                <button onclick="fundPool()">💸 Fund Reward Pool</button>
+                <div id="poolStatus">
+                    <p>Current Pool: <span class="badge">1000 APT</span></p>
+                    <p>Reward per Badge: <span class="badge">10 APT</span></p>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>📊 System Analytics</h3>
+                <button onclick="showSystemStats()">📈 View Analytics</button>
+                <div id="systemStats"></div>
+            </div>
+        </div>
+
+        <div id="status"></div>
+
+        <!-- Transaction History -->
+        <div class="form-section">
+            <h3>🔗 Recent Transactions</h3>
+            <div id="transactionHistory" class="transaction-list">
+                <p style="color: var(--text-secondary);">No transactions yet...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

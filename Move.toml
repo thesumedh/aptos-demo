@@ -1,0 +1,16 @@
+[package]
+name = "reading_log_proofs"
+version = "1.0.0"
+authors = ["hackathon-team"]
+
+[addresses]
+reading_log = "0x52a733d31afb82c3bdfa9a3bc85a9e44daadd2665860f2fa7064e559e4161e02"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
