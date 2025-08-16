@@ -59,6 +59,7 @@ We envision a future where educational achievements are permanently recorded on 
 **Network**: Aptos Devnet
 
 **Explorer**: [View on Aptos Explorer]((https://explorer.aptoslabs.com/txn/0xb3b977a30da860d87ee37ce56fb0fe13cf717625e18749b7420104e645a2fd2c?network=testnet))
+https://explorer.aptoslabs.com/txn/0xb3b977a30da860d87ee37ce56fb0fe13cf717625e18749b7420104e645a2fd2c?network=testnet
 
 ---
 
