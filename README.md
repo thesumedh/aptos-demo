@@ -12,43 +12,30 @@ The platform features a modern dark-mode web interface with simulated wallet int
 <img width="1050" height="613" alt="image" src="https://github.com/user-attachments/assets/0e5b0cdb-2e97-4d8c-abbd-ff0ff8c3a5f0" />
 
 
-## Vision
+Reading Log Proofs is a blockchain-based platform on Aptos that helps K-12 students track reading progress. Students log activities, teachers verify via blockchain, and students earn badges + APT rewards. The platform uses a modern dark-mode web app with wallet simulation.
 
-Our vision is to transform traditional reading programs by leveraging blockchain technology to create:
+Vision
 
-- **Transparent Learning Records**: Immutable proof of student reading achievements stored on-chain
-- **Incentivized Education**: Token-based rewards that motivate students to read more
-- **Trusted Verification**: Teacher attestations that ensure authentic learning progress
-- **Digital Literacy**: Early exposure to Web3 concepts through educational applications
-- **Global Accessibility**: Decentralized platform accessible to schools worldwide
+Transparent, immutable records of learning
 
-We envision a future where educational achievements are permanently recorded on blockchain, creating portable academic credentials that students own and control throughout their educational journey.
+Incentives with tokens & badges
 
-## Future Scope
+Trusted teacher verification
 
-### Phase 1: Enhanced Features
-- **NFT Certificates**: Unique digital certificates for reading milestones
-- **Parent Dashboard**: Real-time progress monitoring for parents
-- **Reading Competitions**: Inter-school blockchain-based reading contests
-- **Advanced Analytics**: AI-powered reading recommendations
+Early Web3 exposure
 
-### Phase 2: Platform Expansion
-- **Multi-Subject Support**: Expand beyond reading to math, science, and other subjects
-- **University Integration**: Connect with higher education institutions
-- **Employer Partnerships**: Verified skills recognition by employers
-- **Global Leaderboards**: Worldwide student achievement rankings
+Global accessibility
 
-### Phase 3: Ecosystem Development
-- **Educational Marketplace**: Decentralized platform for educational resources
-- **Teacher Training Programs**: Blockchain education for educators
-- **Mobile Applications**: Native iOS and Android apps
-- **Integration APIs**: Connect with existing school management systems
+Future Scope
 
-### Long-term Vision
-- **Decentralized Education Network**: Peer-to-peer learning verification
-- **Cross-Chain Compatibility**: Multi-blockchain educational records
-- **AI Tutoring Integration**: Personalized learning powered by blockchain data
-- **Global Education Standards**: Standardized blockchain-based academic credentials
+Phase 1: NFT certificates, parent dashboard, competitions, AI analytics
+
+Phase 2: Expand to other subjects, university links, employer recognition, global leaderboards
+
+Phase 3: Educational marketplace, teacher training, mobile apps, APIs
+
+Long-Term Goal
+A decentralized, cross-chain education network with AI tutoring and blockchain-based global academic credentials.
 
 ## Contract Address
 
