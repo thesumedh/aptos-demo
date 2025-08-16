@@ -1,62 +1,59 @@
-# Reading Log Proofs - Aptos Hackathon
+# Reading Log Proofs
 
-A blockchain-based reading tracking system for K-12 students where teachers verify reading activities and students earn badges and APT rewards.
+## Description
 
-## 🚀 Features
+Reading Log Proofs is a blockchain-based educational platform built on Aptos that revolutionizes how K-12 students track their reading progress. The system enables students to log their reading activities while teachers provide verification through blockchain attestations. Students earn digital badges and APT token rewards for verified reading milestones, creating a gamified and transparent learning environment.
 
-- **Student Reading Logs**: Log books with page counts
-- **Teacher Verification**: Teachers verify and attest reading entries  
-- **Badge System**: Earn badges every 100 verified pages
-- **APT Rewards**: Get 10 APT tokens per badge earned
-- **Dark Mode UI**: Modern Web3 interface
+The platform features a modern dark-mode web interface with simulated wallet integration, making blockchain technology accessible to educational institutions. Teachers can verify student entries, administrators can manage teacher registrations, and students can track their progress through an intuitive dashboard.
 
-## 📱 Screenshots
+## Vision
 
-*Add your screenshots here*
+Our vision is to transform traditional reading programs by leveraging blockchain technology to create:
 
-## 🛠️ Tech Stack
+- **Transparent Learning Records**: Immutable proof of student reading achievements stored on-chain
+- **Incentivized Education**: Token-based rewards that motivate students to read more
+- **Trusted Verification**: Teacher attestations that ensure authentic learning progress
+- **Digital Literacy**: Early exposure to Web3 concepts through educational applications
+- **Global Accessibility**: Decentralized platform accessible to schools worldwide
 
-- **Smart Contract**: Aptos Move
-- **Frontend**: HTML, CSS, JavaScript
-- **Blockchain**: Aptos Network
-- **Wallet**: Simulated wallet integration
+We envision a future where educational achievements are permanently recorded on blockchain, creating portable academic credentials that students own and control throughout their educational journey.
 
-## 🚀 Quick Start
+## Future Scope
 
-### Deploy Contract
-```bash
-cd hackthon/new
-aptos init --network devnet
-aptos move publish --named-addresses reading_log=YOUR_ADDRESS
-```
+### Phase 1: Enhanced Features
+- **NFT Certificates**: Unique digital certificates for reading milestones
+- **Parent Dashboard**: Real-time progress monitoring for parents
+- **Reading Competitions**: Inter-school blockchain-based reading contests
+- **Advanced Analytics**: AI-powered reading recommendations
 
-### Run Web App
-```bash
-cd web
-python -m http.server 8080
-```
+### Phase 2: Platform Expansion
+- **Multi-Subject Support**: Expand beyond reading to math, science, and other subjects
+- **University Integration**: Connect with higher education institutions
+- **Employer Partnerships**: Verified skills recognition by employers
+- **Global Leaderboards**: Worldwide student achievement rankings
 
-Open: `http://localhost:8080`
+### Phase 3: Ecosystem Development
+- **Educational Marketplace**: Decentralized platform for educational resources
+- **Teacher Training Programs**: Blockchain education for educators
+- **Mobile Applications**: Native iOS and Android apps
+- **Integration APIs**: Connect with existing school management systems
 
-## 📋 Smart Contract Functions
+### Long-term Vision
+- **Decentralized Education Network**: Peer-to-peer learning verification
+- **Cross-Chain Compatibility**: Multi-blockchain educational records
+- **AI Tutoring Integration**: Personalized learning powered by blockchain data
+- **Global Education Standards**: Standardized blockchain-based academic credentials
 
-- `log_reading(book_title, pages_read)` - Students log books
-- `verify_reading(student_addr, entry_index)` - Teachers verify entries
-- `register_teacher(teacher_addr)` - Admin registers teachers
-- `get_student_stats(student_addr)` - View reading statistics
+## Contract Address
 
-## 🎯 Demo Flow
+**Developer Contact**: sumdh@yahoo.com
 
-1. Connect wallet (simulated)
-2. Log reading entries as student
-3. Switch to teacher role
-4. Verify student entries
-5. Watch badges and APT rewards update automatically
+**Smart Contract Address**: `0x52a733d31afb82c3bdfa9a3bc85a9e44daadd2665860f2fa7064e559e4161e02`
 
-## 🏆 Hackathon Project
+**Network**: Aptos Devnet
 
-Built for Aptos Hackathon - showcasing Move smart contracts, Web3 UI, and educational blockchain use cases.
+**Explorer**: [View on Aptos Explorer](https://explorer.aptoslabs.com/account/0x52a733d31afb82c3bdfa9a3bc85a9e44daadd2665860f2fa7064e559e4161e02?network=devnet)
 
-## 📄 License
+---
 
-MIT License
+*Built for Aptos Hackathon - Showcasing the future of blockchain-powered education*
