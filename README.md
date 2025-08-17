@@ -58,4 +58,4 @@ https://explorer.aptoslabs.com/txn/0xb3b977a30da860d87ee37ce56fb0fe13cf717625e18
 
 ---
 
-*Built for Aptos Hackathon - Showcasing the future of blockchain-powered education*
+*Built for Aptos - Showcasing the future of blockchain-powered education*
