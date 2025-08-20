@@ -47,7 +47,7 @@ A decentralized, cross-chain education network with AI tutoring and blockchain-b
 
 ## Contract Address
 
-**Developer Contact**: sumdh@yahoo.com
+**Developer Contact**: sum3dh@yahoo.com
 
 **Smart Contract Address**: `0x52a733d31afb82c3bdfa9a3bc85a9e44daadd2665860f2fa7064e559e4161e02`
 
